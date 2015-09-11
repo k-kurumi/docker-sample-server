@@ -1,0 +1,7 @@
+redis3:
+  image: redis:3
+  ports:
+    - "6379:6379"
+  volumes:
+    - /etc/localtime:/etc/localtime:ro
+  # environment:
